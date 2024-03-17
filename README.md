@@ -3,6 +3,10 @@
 It is a Python application designed to enhance your ambient environment by synchronizing a Tuya smart bulb's color with the dominant color on your computer screen. This project is perfect for setting the mood during gaming sessions, movies, or simply to create a dynamic lighting experience that complements your screen content.
 
 
+## DEMO
+![Macbook and bulb color sync](demo.gif)
+
+
 ## Getting Started
 
 Follow these instructions to get it up and running on your system.
