@@ -4,7 +4,7 @@ It is a Python application designed to enhance your ambient environment by synch
 
 ## DEMO
 
-![Macbook and bulb color sync](demo.gif)
+![Macbook and bulb color sync](assets/demo.gif)
 Cool right?
 
 ## Getting Started
