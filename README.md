@@ -2,10 +2,10 @@
 
 It is a Python application designed to enhance your ambient environment by synchronizing a Tuya smart bulb's color with the dominant color on your computer screen. This project is perfect for setting the mood during gaming sessions, movies, or simply to create a dynamic lighting experience that complements your screen content.
 
-
 ## DEMO
-![Macbook and bulb color sync](demo.gif)
 
+![Macbook and bulb color sync](demo.gif)
+Cool right?
 
 ## Getting Started
 
@@ -28,6 +28,7 @@ cd ledvance-color-screensync
 ```
 
 **Install Dependencies:**
+
 ```bash
 pip install numpy pillow tinytuya
 ```
@@ -44,8 +45,8 @@ def setup_bulb(device_id, ip, local_key):
     ...
 ```
 
-
 ### Running the ledvance-color-sync
+
 With your bulb configured, run Main.py from your terminal:
 
 ```bash
@@ -57,6 +58,7 @@ python3 main.py
 The script will continuously capture your screen's dominant color, enhance its vibrancy, and update your smart bulb's color to match.
 
 ### Usage Tips
+
 - For the best experience, position the smart bulb where it can complement your screen well.
 - Adjust the color enhancement factor in enhance_color_saturation function for personalized vibrancy.
 - Consider running in the background during your multimedia sessions.
@@ -64,5 +66,5 @@ The script will continuously capture your screen's dominant color, enhance its v
 - Refresh rate is every second to optimize the load on your CPU but you can change it to any value
 
 ### Contributing
-Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
 
+Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
